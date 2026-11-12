@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Build settings and the common game references live in Directory.Build.props. -->
+  <PropertyGroup>
+    <AssemblyName>SkipIntroLogos</AssemblyName>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>

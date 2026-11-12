@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\Plugin.cs" Link="Plugin.cs" />
+    <Compile Include="..\..\src\Settings.cs" Link="Settings.cs" />
+    <Compile Include="..\..\src\SplashStopRule.cs" Link="SplashStopRule.cs" />
+    <Compile Include="..\..\src\Game\SplashStopper.cs" Link="Game\SplashStopper.cs" />
+    <Compile Include="..\..\src\Game\FirstFrameSignal.cs" Link="Game\FirstFrameSignal.cs" />
+    <Compile Include="..\..\src\FadeCap.cs" Link="FadeCap.cs" />
+    <Compile Include="..\..\src\Patches\FadePatches.cs" Link="Patches\FadePatches.cs" />
+    <Compile Include="..\..\src\NearLoad.cs" Link="NearLoad.cs" />
+    <Compile Include="..\..\src\Patches\NearLoadPatches.cs" Link="Patches\NearLoadPatches.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="xunit.v3" Version="4.0.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>

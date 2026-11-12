@@ -1,0 +1,27 @@
+{
+  "nexus": {
+    "name": "Skip Intro Logos",
+    "author": "ivmakk",
+    "category": "Miscellaneous",
+    "summary": "Skip the intro logos and load faster."
+  },
+  "thumbnail": {
+    "template": "crossed",
+    "out": "01-thumb.jpg",
+    "logos": [
+      { "screenshot": "splash-studio.png", "crop": [1170, 330, 1500, 1500] },
+      { "screenshot": "splash-unity.png", "crop": [1440, 600, 960, 960] }
+    ],
+    "cross": "x-paint.png",
+    "title": [[{ "text": "Skip ", "accent": true }, { "text": "Intro" }]]
+  },
+  "background": {
+    "template": "crossed",
+    "out": "banner.jpg",
+    "logos": [
+      { "screenshot": "splash-studio.png", "crop": [1170, 330, 1500, 1500] },
+      { "screenshot": "splash-unity.png", "crop": [1440, 600, 960, 960] }
+    ],
+    "cross": "x-paint.png"
+  }
+}

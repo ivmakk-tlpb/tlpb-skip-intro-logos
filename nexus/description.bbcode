@@ -1,0 +1,33 @@
+Each game start shows the studio logos and the "Made with Unity" logo, and each save load waits behind slow black fades and a full world load. On the test PC, the title screen showed after 6 s in place of 11 s, and the first save load took 6 s in place of 11 s.
+
+[size=4][b]Main features[/b][/size]
+[list]
+[*][b]No intro logos.[/b] The game starts straight at the title screen.[/*]
+[*][b]Short black fades.[/b] 0.1 s in place of 1 to 2 s at the title screen and around loads. The sleep fade stays.[/*]
+[*][b]Faster world load.[/b] Save loads take about half the time. Distant terrain loads with a short delay.[/*]
+[*][b]Save safety.[/b] Nothing goes into your save. Remove the mod at any time. Single player tested.[/*]
+[/list]
+
+[size=4][b]Credits[/b][/size]
+The logos are hidden only to save time at each start. The Last Plague: Blight is made by [b]Original Studios[/b], and it runs on the [url=https://unity.com]Unity[/url] engine. Thanks to both for the game.
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*]The Last Plague: Blight 0.12.7 or later.[/*]
+[*][url=https://www.nexusmods.com/thelastplagueblight/mods/9]BepInEx for The Last Plague: Blight[/url].[/*]
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[list=1]
+[*]Install [url=https://www.nexusmods.com/thelastplagueblight/mods/9]BepInEx[/url].[/*]
+[*]Extract this mod's zip into the game folder (the folder with the game .exe). The DLL lands in BepInEx\plugins. Full path example:
+[code]C:\Program Files (x86)\Steam\steamapps\common\The Last Plague\BepInEx\plugins\SkipIntroLogos.dll[/code][/*][/list]
+
+[size=4][b]Uninstall[/b][/size]
+Delete [font=Courier New]SkipIntroLogos.dll[/font] from the [font=Courier New]BepInEx\plugins[/font] folder.
+
+[size=4][b]Configuration[/b][/size]
+To change mod settings, edit [font=Courier New]BepInEx\config\com.ivmakk.thelastplagueblight.skipintrologos.cfg[/font] while the game is closed (see [url=https://github.com/ivmakk-tlpb/tlpb-skip-intro-logos/blob/main/CONFIG.md]CONFIG.md[/url] for every setting). Changes apply at the next game start. If the game does not start with the mod, set [font=Courier New]SkipSplash = false[/font]: the logos then show as in the game, and the other features still work.
+
+[size=4][b]Source and license[/b][/size]
+Open source under GPL-3.0: [url=https://github.com/ivmakk-tlpb/tlpb-skip-intro-logos]github.com/ivmakk-tlpb/tlpb-skip-intro-logos[/url]
