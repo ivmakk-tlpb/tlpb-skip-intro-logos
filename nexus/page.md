@@ -4,7 +4,7 @@ Tracks the mod's Nexus page details.
 
 - Mod name: Skip Intro Logos
 - Game domain: `thelastplagueblight` (add-mod page: https://www.nexusmods.com/thelastplagueblight/mods/add)
-- Mod id and URL: not created yet.
+- Mod id and URL: `12`, https://www.nexusmods.com/thelastplagueblight/mods/12 (published on 2026-11-12).
 - Category: Miscellaneous (category id `2`), the only category that Nexus offers for this game.
 - Version to upload: `1.0.0`
 - File name under Manage Files: `Skip Intro Logos 1.0.0`, the zip `SkipIntroLogos-1.0.0.zip`, marked as the main file. It is the same zip as the GitHub Release asset.
