@@ -4,7 +4,7 @@
 
 Skip Intro Logos is a mod for the Steam game *The Last Plague: Blight*. Each game start shows logo screens, and each save load waits behind slow black fades and a full world load. This mod skips the logos, shortens the black fades, and gets you into the world sooner.
 
-On the test PC, the title screen showed after 6 s in place of 11 s, and the first save load took 6 s in place of 11 s.
+During my tests, the game start and the first save load each took 6 s in place of 11 s.
 
 ## Features
 
